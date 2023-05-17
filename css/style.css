@@ -430,7 +430,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .info_servicos p {
@@ -587,6 +587,14 @@ nav ul li a {
     transform: scale3d(1.04, 1.04, 1.04);
     background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
     box-shadow: 5px 10px 20px -5px #1A1A1A;
+}
+
+.cards_segmentos:hover > .cards_segmentos_int svg {
+    fill: #E35A27;
+}
+
+.cards_segmentos:hover > .cards_segmentos_int .title_cards_segmentos h2 {
+    color: #E35A27;
 }
 
 .cards_segmentos_int {
