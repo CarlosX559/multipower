@@ -709,6 +709,7 @@ footer {
     .container_segmentos {
         padding: 0px 0px 60px 0px;
     }
+
     .area_segmentos {
         padding: 0px 20px;
     }
@@ -717,7 +718,7 @@ footer {
         padding: 0px 20px;
     }
 
-} 
+}
 
 @media(max-width: 1024px) {
     nav ul {
@@ -837,9 +838,11 @@ footer {
     .title_container_1 h2 {
         font-size: 60px;
     }
+
     .title_container_1 h2 b {
         font-size: 60px;
     }
+
     /*Container 2*/
     .container_2 {
         padding: 0px 0px 40px 0px;
@@ -989,9 +992,11 @@ footer {
     .title_container_2 h2 {
         font-size: 32px;
     }
+
     .title_container_2 h2 b {
         font-size: 32px;
     }
+
     .area_icons_container_2 {
         justify-content: center;
         flex-direction: column;
@@ -1003,9 +1008,11 @@ footer {
     #container_solucoes {
         height: 240px;
     }
+
     .title_solucoes h2 {
         font-size: 24px;
     }
+
     .title_solucoes h2 b {
         font-size: 28px;
     }
@@ -1014,9 +1021,11 @@ footer {
     .area_texts_servicos {
         gap: 10px;
     }
+
     .title_servicos h2 {
         font-size: 32px;
     }
+
     .btn_info_servicos h2 {
         font-size: 14px;
     }
@@ -1051,12 +1060,15 @@ footer {
     #container_1 {
         height: 480px;
     }
+
     .area_container_1 {
         gap: 10px;
     }
-    .title_container_1 h2  {
+
+    .title_container_1 h2 {
         font-size: 32px;
     }
+
     .title_container_1 h2 b {
         font-size: 32px;
     }
@@ -1065,6 +1077,7 @@ footer {
     .area_container_2 {
         margin-top: 120px;
     }
+
     .area_text_container_2 {
         gap: 10px;
     }
@@ -1073,12 +1086,15 @@ footer {
     .title_solucoes h2 {
         font-size: 22px;
     }
+
     .title_solucoes h2 b {
         font-size: 22px;
     }
+
     .area_solucoes {
         padding: 0px 20px;
     }
+
     /*Serviços*/
     .title_servicos h2 {
         font-size: 28px;
@@ -1092,15 +1108,31 @@ footer {
     .container_segmentos {
         padding: 40px 0px 40px 0px;
     }
+
+    .cards_segmentos {
+        max-width: 150px;
+        height: 160px;
+    }
+
+    .cards_segmentos_int svg {
+        width: 100%;
+        max-width: 70px;
+        height: 70px;
+        fill: #fff;
+    }
+
     .title_segmentos h2 {
         font-size: 28px;
+    }
+    .area_cards_segmentos {
+        padding: 0px;
     }
     .sub_title_segmentos p {
         font-size: 14px;
     }
 
     .title_cards_segmentos h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /*Alugar*/
