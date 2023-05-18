@@ -523,8 +523,6 @@ nav ul li a {
     margin: 0px;
 }
 
-
-
 footer {
     background-image: url(../img_servicos/bg_footer.png);
     background-position: center;
@@ -612,7 +610,6 @@ footer {
     margin: 0px;
 }
 
-
 .footer_redes_sociais {
     height: 120px;
     width: 100%;
@@ -647,7 +644,6 @@ footer {
     display: flex;
     justify-content: center;
 }
-
 
 .copy {
     display: flex;
@@ -871,7 +867,6 @@ footer {
     .sub_title_segmentos p {
         font-size: 16px;
     }
-
 
 
     /*Footer*/
