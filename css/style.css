@@ -52,6 +52,11 @@ a {
     height: 120px;
 }
 
+.area_menu img {
+    width: 100%;
+    max-width: 230px;
+}
+
 .menu_mobile {
     display: none;
 }
