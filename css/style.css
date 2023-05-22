@@ -124,7 +124,7 @@ nav ul li a {
 /*Container 1*/
 
 #container_1 {
-    background-image: url(../img/bg_header.png);
+    background-image: url(../img/bg_header.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -313,7 +313,7 @@ nav ul li a {
 
 
 #container_solucoes {
-    background-image: url(../img/bg_solucoes.png);
+    background-image: url(../img/bg_solucoes.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -630,7 +630,7 @@ nav ul li a {
 
 /*Container alugar*/
 #container_alugar {
-    background-image: url(../img/bg_alugar.png);
+    background-image: url(../img/bg_alugar.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -685,7 +685,7 @@ nav ul li a {
     margin: 0px;
 }
 footer {
-    background-image: url(../img/bg_footer.png);
+    background-image: url(../img/bg_footer.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
