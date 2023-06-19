@@ -914,12 +914,15 @@ footer {
     .container_info_servicos {
         padding: 0px 0px 40px 0px;
     }
+
     .container_info_servicos_int {
         gap: 40px;
     }
+
     .container_segmentos {
         padding: 0px 0px 40px 0px;
     }
+
     .area_segmentos {
         gap: 20px;
     }
@@ -940,6 +943,7 @@ footer {
     .container_slide {
         padding: 0px 0px 40px 0px;
     }
+
     .title_container_slide h2 {
         font-size: 36px;
     }
@@ -951,6 +955,7 @@ footer {
     .container_solucao {
         padding: 0px 0px 40px 0px;
     }
+
     .container_solucao_int {
         justify-content: center;
         align-items: center;
