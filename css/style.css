@@ -1694,6 +1694,18 @@ footer {
         font-size: 16px;
     }
 
+    .bg_alugar_1 {
+        height: 400px;
+    }
+    .bg_alugar_2 {
+        height: 400px;
+    }
+    .bg_alugar_3 {
+        height: 400px;
+    }
+    .bg_alugar_4 {
+        height: 400px;
+    }
     /*Alugar*/
     .title_alugar h2 {
         font-size: 28px;
