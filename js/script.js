@@ -50,3 +50,23 @@ function menu() {
     );
 }
 menu();
+
+function header() {
+    
+  const body = document.querySelector('body').getBoundingClientRect();
+
+  if( body.top < -30 ) {
+      $('.sub_menu_solucoes').css( 'top', '0px' );
+      $('.sub_menu_solucoes').css( 'top', '0px' );
+  }else {
+      $('.sub_menu_solucoes').css( 'top', '100px' );
+  }
+
+  if(body.width <= 480) {
+      $('.container_header').css( 'top', '0px' );
+  }
+
+
+}
+
+window.addEventListener( 'scroll', header );
