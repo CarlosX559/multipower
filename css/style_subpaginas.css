@@ -16,7 +16,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(133deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(349.1deg, #000000 89.11%, rgba(0, 0, 0, 0) 106.71%), #1A1A1A;
 }
 
 header {
@@ -125,7 +124,7 @@ nav ul li a {
 
 /*Container 1*/
 .container_1 {
-    background-image: url(../img_servicos/bg_header.png);
+    background-image: url(../img_sub_paginas/bg_header_1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,148 +135,120 @@ nav ul li a {
     z-index: 1;
 }
 
-
-
-/*Serviços*/
-.container_servicos {
+.container_principal {
     display: flex;
     justify-content: center;
     width: 100%;
+    background: linear-gradient(267.92deg, #E35A27 2.61%, #FF843D 91.68%), #FFECE6;
     padding: 80px 0px 60px 0px;
 }
 
-.container_servicos_int {
+.container_principal_int {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 1280px;
 }
 
-.area_servicos {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-}
-
-.area_texts_servicos {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 100%;
-    max-width: 800px;
-}
-
-.title_servicos h2 {
-    font-weight: var(--font-weight-400);
-    font-size: 46px;
-    line-height: 105.52%;
-    color: #FFFFFF;
-    margin: 0px;
-}
-
-.title_servicos h2 b {
-    font-weight: var(--font-weight-700);
-    color: #FF4500;
-}
-
-.sub_title_servicos p {
-    font-weight: var(--font-weight-500);
-    font-size: 18px;
-    line-height: 142.02%;
-    color: #FFECE6;
-    margin: 0px;
-}
-
-.item {
+.area_principal {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
-.area_card {
-    height: 340px;
-    width: 300px;
-    border-radius: 5px;
-    background: linear-gradient(155deg, #2F2F2F 0%, rgba(47, 47, 47, 0.00) 100%);
-}
-
-.area_card_img_1 {
-    background-image: url(../img_servicos/grupo_geradores.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 340px;
+.area_principal img {
     width: 100%;
+    max-width: 550px;
 }
 
-.area_text_card {
+.area_texts_principal {
     display: flex;
-    justify-content: center;
-    align-items: end;
-    padding: 40px 25px;
-    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    max-width: 485px;
+    gap: 25px;
 }
 
-.title_card h2 {
+.title_principal h2 {
     color: #FFF;
-    font-size: 22px;
-    font-weight: var(--font-weight-700);
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: var(--font-weight-500);
     line-height: 105.523%;
     margin: 0px;
-    font-family: Poppins;
 }
 
-.area_info_servicos {
+.sub_title_principal p {
+    color: #FFECE6;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: var(--font-weight-500);
+    line-height: 142.023%;
+    margin: 0px;
+}
+
+.area_info_principal {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
 }
 
-.info_servicos p {
-    font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 142.02%;
+.info_principal p {
+    color: #FFECE6;
+    font-size: 18px;
+    font-family: Poppins;
     font-weight: var(--font-weight-700);
-    text-align: center;
-    color: #FDFDFD;
+    line-height: 142.023%;
     margin: 0px;
-
 }
 
-.btn_info_servicos {
+.slide-1 .item img {
+    max-width: max-content;
+    width: 100%;
+}
+
+.slide-1 .owl-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.slide-1 .item {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent !important;
+}
+
+.container_slide {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(267.92deg, #E35A27 2.61%, #FF843D 91.68%), #FFECE6;
+    padding: 60px 0px 60px 0px;
+    box-shadow: inset -1px 24px 41px rgba(205, 59, 5, 0.61);
+}
+
+.container_slide_int {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 160px;
-    height: 45px;
-    background: #FFFFFF;
-    border: 3px solid #FFFFFF;
-    border-radius: 46px;
-    transition: all ease 300ms;
-    padding: 0px 20px;
-    transform-origin: bottom;
+    max-width: 1280px;
 }
 
-.btn_info_servicos h2 {
-    font-family: 'Montserrat';
-    font-weight: var(--font-weight-700);
-    font-size: 16px;
-    text-align: center;
-    color: #E44105;
-    margin: 0px;
+.area_slide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
 }
 
-.btn_info_servicos:hover {
-    background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
-    border: 3px solid #1A1A1A;
-}
-
-.btn_info_servicos:hover h2 {
-    color: #FFFFFF;
-}
 
 footer {
     background-image: url(../img_servicos/bg_footer.png);
@@ -418,10 +389,9 @@ footer {
 }
 
 
+
+
 @media(max-width: 1024px) {
-    .container_1 {
-        height: 300px;
-    }
     nav ul {
         display: none;
     }
@@ -522,17 +492,30 @@ footer {
     .menu_mobile nav ul li a {
         font-size: 18px;
     }
-
-    .area_servicos {
+    .container_1 {
+        height: 300px;
+    }
+    .area_principal {
+        gap: 40px;
         padding: 0px 20px;
     }
 
-    .title_servicos h2 {
-        font-size: 36px;
+    .title_principal h2 {
+        font-size: 38px;
     }
 
-    .sub_title_servicos p {
+    .sub_title_principal p {
         font-size: 16px;
+    }
+    .info_principal p {
+        font-size: 16px;
+    }
+    .container_principal {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .container_slide {
+        padding: 40px 0px 20px 0px;
     }
 
     /*Footer*/
@@ -578,22 +561,19 @@ footer {
         width: 100%;
         max-width: 30px;
     }
-}
 
+}
 
 @media(max-width: 480px) {
 
-    .area_servicos {
-        gap: 30px;
+    .title_principal h2 {
+        font-size: 28px;
     }
-    .container_servicos {
-        padding: 40px 0px 40px 0px;
-    }
-    .area_texts_servicos {
+    .area_texts_principal {
         gap: 20px;
     }
-    .title_servicos h2 {
-        font-size: 28px;
+    .area_principal {
+        gap: 30px;
     }
     /*Footer*/
     .title_title_footer h2 {
