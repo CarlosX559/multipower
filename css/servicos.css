@@ -211,6 +211,16 @@ nav ul li a {
     width: 100%;
 }
 
+.area_card_img_2 {
+    background-image: url(../img_servicos/banco_de_carga.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+}
+
+
 .area_text_card {
     display: flex;
     justify-content: center;

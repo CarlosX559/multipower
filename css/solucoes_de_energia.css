@@ -21,7 +21,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(133deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(349.1deg, #000000 89.11%, rgba(0, 0, 0, 0) 106.71%), #1A1A1A;
+    background: linear-gradient(78deg, rgba(255, 255, 255, 0.158) -106.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(98deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(324deg, #000000 89.11%, rgba(0, 0, 0, 0) 106.71%), #1A1A1A;
 }
 
 header {
