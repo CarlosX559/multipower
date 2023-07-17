@@ -686,6 +686,12 @@ nav ul li a {
     max-width: 640px;
 }
 
+.slide-1 .item img {
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+
 .title_container_slide_2 h2 {
     color: #FFF;
     font-size: 46px;
