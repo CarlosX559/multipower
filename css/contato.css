@@ -646,6 +646,28 @@ footer {
 @media(max-width: 480px) {
 
 
+    /*Container mapa*/
+    .title_mapa h2 {
+        font-size: 28px;
+    }
+
+    .endereco_mapa {
+        gap: 10px;
+    }
+
+    .sub_title_endereco_mapa p {
+        font-size: 15px;
+    }
+
+    .circulo_icon_endereco {
+        width: 40px;
+        height: 40px;
+    }
+
+    .circulo_icon_endereco img {
+        width: 22px;
+    }
+
     /*Footer*/
     .title_title_footer h2 {
         font-size: 28px;

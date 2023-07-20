@@ -647,7 +647,6 @@ footer {
     }
 
 
-
     /*Footer*/
     .area_texts_footer {
         gap: 20px;
@@ -719,6 +718,7 @@ footer {
 
     .title_info_quadros h2 {
         font-size: 18px;
+        line-height: 22px;
     }
 
     .info_quadros p {

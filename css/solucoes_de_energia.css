@@ -337,6 +337,7 @@ nav ul li a {
 .title_nossas_solucoes h2 {
     font-weight: var(--font-weight-700);
     font-size: 20px;
+    line-height: 24px;
     text-transform: uppercase;
     color: #FF4500;
     margin: 0px;
@@ -356,7 +357,7 @@ nav ul li a {
     top: 50%;
     max-width: max-content;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 
@@ -1074,6 +1075,7 @@ footer {
         max-width: 1000px;
         justify-content: center;
     }
+
     .sub_menu_solucoes nav ul li a {
         font-size: 14px;
     }
@@ -1083,9 +1085,11 @@ footer {
     .container_1 {
         height: 300px;
     }
+
     .sub_menu_solucoes nav ul li a {
         font-size: 12px;
     }
+
     nav ul {
         display: none;
     }
@@ -1154,7 +1158,6 @@ footer {
         box-shadow: 4px 2px 4px rgb(255 255 255 / 40%);
     }
 
-
     .menu_mobile_open div {
         width: 40px;
         height: 3px;
@@ -1196,6 +1199,11 @@ footer {
 
     .container_solucoes_int {
         padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .area_solucoes {
+        gap: 20px;
     }
 
     .area_solucoes_2 {
@@ -1373,9 +1381,11 @@ footer {
     .container_solucoes {
         padding: 40px 0px 40px 0px;
     }
+
     .sub_menu_solucoes {
         display: none;
     }
+
     .title_solucoes h2 {
         font-size: 36px;
     }
@@ -1440,7 +1450,7 @@ footer {
     }
 
     .title_info_solucao h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .area_solucao {
@@ -1479,14 +1489,28 @@ footer {
 
     .title_container_slide_2 h2 {
         font-size: 28px;
+        text-align: center;
     }
 
     .title_icon_text h2 {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .title_nossas_solucoes h2 {
+        font-size: 18px;
+        line-height: 22px;
     }
 
     /*Footer*/
+    .bg_predios {
+        height: 300px;
+    }
+
+    .img_predios {
+        height: 340px;
+    }
+
     .title_title_footer h2 {
         font-size: 28px;
     }
