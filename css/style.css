@@ -663,7 +663,7 @@ nav ul li a {
 }
 
 .slide-1.owl-theme .owl-dots .owl-dot.active span {
-    background-color: #FFFFFF !important;
+    background-color: #1A1A1A !important;
 }
 
 .slide-1.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
@@ -680,7 +680,7 @@ nav ul li a {
 }
 
 .slide-1.owl-theme .owl-dots .owl-dot span {
-    background: #1A1A1A !important;
+    background: #ffffff !important;
     transition: all ease 200ms !important;
     margin: 0px !important;
 }
