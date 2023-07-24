@@ -128,12 +128,12 @@ a {
 }
 
 .area_menu a {
-    max-height: 60px;
+    display: flex;
 }
 
 .area_menu img {
     width: 100%;
-    max-width: 230px;
+    max-width: 250px;
 }
 
 
@@ -1134,7 +1134,9 @@ footer {
     .container_1 {
         height: 300px;
     }
-
+    .menu_desktop {
+        display: none;
+    }
     .sub_menu_solucoes nav ul li a {
         font-size: 10px;
     }
@@ -1196,7 +1198,7 @@ footer {
     }
 
     .area_menu {
-        padding: 0px 20px;
+        padding: 20px 20px;
     }
 
     .menu_mobile_close div {
@@ -1532,7 +1534,9 @@ footer {
 
 @media(max-width: 480px) {
 
-
+    .area_menu img {
+        max-width: 200px;
+    }
     .title_solucoes h2 {
         font-size: 28px;
     }
