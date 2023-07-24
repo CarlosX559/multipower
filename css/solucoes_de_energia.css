@@ -1136,7 +1136,7 @@ footer {
     }
 
     .sub_menu_solucoes nav ul li a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     nav ul {
@@ -1239,6 +1239,22 @@ footer {
         font-size: 18px;
     }
 
+    .area_total_slide {
+        flex-direction: column;
+        align-items: center;
+    }
+    .area_total_slide {
+        gap: 20px;
+    }
+    .area_texts_slide_2 {
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .area_icon_texts_2 {
+        align-items: center;
+    }
 
     .area_texts_solucoes {
         width: 100%;
