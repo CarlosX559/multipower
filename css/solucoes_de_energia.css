@@ -129,13 +129,13 @@ a {
 
 .area_menu a {
     display: flex;
+    width: 100%;
 }
 
 .area_menu img {
     width: 100%;
-    max-width: 250px;
+    max-width: 220px;
 }
-
 
 .menu_mobile {
     display: none;
