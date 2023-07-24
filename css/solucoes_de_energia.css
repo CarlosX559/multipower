@@ -711,6 +711,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     gap: 40px;
+    width: 100%;
 }
 
 .slide-2 .item {
