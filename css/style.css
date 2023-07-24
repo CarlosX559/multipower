@@ -433,14 +433,15 @@ nav ul li a {
     margin-top: 0px !important;
 }
 
-.slide-3 .owl-dots .owl-dot.active span {
+.slide-3.owl-theme .owl-dots .owl-dot.active span {
     width: 18px !important;
     height: 18px !important;
     background: #FF4500 !important;
     margin: 0px !important;
+    transition: all ease 200ms !important;
 }
 
-.slide-3 .owl-dots .owl-dot span {
+.slide-3.owl-theme .owl-dots .owl-dot span {
     width: 14px !important;
     height: 14px !important;
     background: #FFFFFF !important;
@@ -448,8 +449,10 @@ nav ul li a {
     transition: all ease 200ms !important;
 }
 
-.slide-3 .owl-dots .owl-dot span:hover {
-    background: #FF4500 !important;
+.slide-3.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #FF4500 !important;
+    height: 15px !important;
+    width: 15px !important;
 }
 
 .bg_alugar_1 {
@@ -566,7 +569,7 @@ nav ul li a {
     justify-content: center;
     width: 100%;
     background: linear-gradient(267.92deg, #E35A27 2.61%, #FF843D 91.68%), #FFECE6;
-    padding: 80px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .container_servicos_int {
@@ -618,11 +621,68 @@ nav ul li a {
 }
 
 .area_card {
-    height: 380px;
+    height: 340px;
     width: 300px;
-    background-color: rgba(217, 217, 217, 0.15);
-    border-radius: 20px;
-    box-shadow: inset 2px 2px 4px 0px #fff;
+    border-radius: 5px;
+    background: linear-gradient(155deg, #ffffff 0%, rgba(47, 47, 47, 0.00) 100%);
+}
+
+.area_card_img_1 {
+    background-image: url(../img_servicos/grupo_geradores.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+}
+
+.area_card_img_2 {
+    background-image: url(../img_servicos/banco_de_carga.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+}
+
+.area_text_card {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 40px 25px;
+    height: 100%;
+}
+
+.title_card h2 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: var(--font-weight-700);
+    line-height: 105.523%;
+    margin: 0px;
+    font-family: Poppins;
+}
+
+.slide-1.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #FFFFFF !important;
+}
+
+.slide-1.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.slide-1.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+}
+
+.slide-1.owl-theme .owl-dots .owl-dot span {
+    background: #1A1A1A !important;
+    transition: all ease 200ms !important;
+    margin: 0px !important;
 }
 
 .area_info_servicos {

@@ -363,7 +363,6 @@
         const prev = '<img src="img/arrow_right.svg" alt="">';
         $(document).ready(() => {
 
-
             $(".slide-1").owlCarousel({
 
                 items: 6,
@@ -374,6 +373,9 @@
                 autoplay: false,
                 autoplayTimeout: 6000,
                 responsive: {
+                    320: {
+                        items: 1
+                    },
                     375: {
                         items: 1
                     },
