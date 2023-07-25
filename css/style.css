@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/medel');
 * {
     font-family: 'Poppins';
     box-sizing: border-box;
@@ -235,9 +235,10 @@ nav ul li a {
 }
 
 .title_container_1 h2 {
+    font-family: 'Medel';
     font-weight: var(--font-weight-400);
     font-size: 80px;
-    line-height: 105.52%;
+    line-height: 100%;
     color: #E9EBF8;
     margin: 0px;
 }
@@ -245,9 +246,9 @@ nav ul li a {
 .title_container_1 h2 b {
     font-weight: var(--font-weight-500);
     font-size: 80px;
-    line-height: 105.52%;
     color: #FF4500;
     margin: 0px;
+    font-family: 'Medel';
 }
 
 .btn_container_1 {
@@ -1698,6 +1699,10 @@ footer {
 
     .title_container_1 h2 b {
         font-size: 32px;
+    }
+
+    .btn_container_1 {
+        padding: 5px 15px;
     }
 
     /*Container 2*/
