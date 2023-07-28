@@ -56,7 +56,7 @@ function header() {
   const body = document.querySelector('body').getBoundingClientRect();
 
   if( body.top > -454 ) {
-      $('.sub_menu_solucoes').css( 'top', '0px' );
+      $('.sub_menu_solucoes').css( 'top', '80px' );
       $('.sub_menu_solucoes').css( 'position', 'absolute' );
   }else {
       $('.sub_menu_solucoes').css( 'top', '0px' );

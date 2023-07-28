@@ -147,7 +147,7 @@ a {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 0px;
+    top: 80px;
     width: 100%;
     z-index: 99;
     transition: all ease 300ms;
@@ -264,7 +264,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 80px 0px 60px 0px;
+    padding: 20px 0px 60px 0px;
     position: relative;
 }
 
@@ -298,6 +298,7 @@ nav ul li a {
     flex-wrap: wrap;
     width: 100%;
     gap: 40px;
+    margin-top: 30px;
 }
 
 .area_solucoes img {
