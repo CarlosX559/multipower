@@ -51,12 +51,12 @@ function menu() {
 }
 menu();
 
-function header() {
+/*function header() {
     
   const body = document.querySelector('body').getBoundingClientRect();
 
   if( body.top > -454 ) {
-      $('.sub_menu_solucoes').css( 'top', '80px' );
+      $('.sub_menu_solucoes').css( 'top', '100px' );
       $('.sub_menu_solucoes').css( 'position', 'absolute' );
   }else {
       $('.sub_menu_solucoes').css( 'top', '0px' );
@@ -70,4 +70,4 @@ function header() {
 
 }
 
-window.addEventListener( 'scroll', header );
+window.addEventListener( 'scroll', header );*/
