@@ -736,6 +736,16 @@ nav ul li a {
     max-width: 500px;
 }
 
+.owl-prev img {
+    width: 40px;
+    height: 40px;
+}
+
+.owl-next img {
+    width: 40px;
+    height: 40px;
+}
+
 .area_icon_texts_2 {
     display: flex;
     flex-direction: column;
@@ -1449,6 +1459,10 @@ footer {
 
     .container_solucoes {
         padding: 40px 0px 40px 0px;
+    }
+
+    .area_solucoes {
+        margin-top: 0px;
     }
 
     .sub_menu_solucoes {
