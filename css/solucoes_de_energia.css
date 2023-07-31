@@ -585,7 +585,7 @@ nav ul li a {
     font-weight: var(--font-weight-500);
     font-size: 16px;
     line-height: 142.02%;
-    text-align: center;
+    text-align: left;
     color: #FFECE6;
     margin: 0px;
 }
@@ -746,14 +746,12 @@ nav ul li a {
     height: 40px;
 }
 
-
 .area_icon_texts_2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 5px;
+    gap: 10px;
 }
-
 
 .title_container_slide_2 h2 {
     color: #FFF;
@@ -777,7 +775,7 @@ nav ul li a {
 
 .title_icon_text h2 {
     color: #FF4500;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: var(--font-weight-700);
     margin: 0px;
     line-height: 110%;
@@ -1147,9 +1145,11 @@ footer {
     .container_1 {
         height: 300px;
     }
+
     .menu_desktop {
         display: none;
     }
+
     .sub_menu_solucoes nav ul li a {
         font-size: 10px;
     }
@@ -1258,9 +1258,11 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .area_total_slide {
         gap: 20px;
     }
+
     .area_texts_slide_2 {
         align-items: center;
         text-align: center;
@@ -1554,6 +1556,7 @@ footer {
     .area_menu img {
         max-width: 200px;
     }
+
     .title_solucoes h2 {
         font-size: 28px;
     }
