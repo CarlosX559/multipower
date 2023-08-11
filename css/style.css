@@ -834,9 +834,9 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 185px;
+    height: 120px;
     width: 100%;
-    max-width: 200px;
+    max-width: 280px;
     background: linear-gradient(216.92deg, rgba(205, 59, 5, 0.56) -6.19%, rgba(198, 83, 19, 0) 92.54%);
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
@@ -860,27 +860,29 @@ nav ul li a {
 
 .cards_segmentos_int {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 10px;
+    max-width: 280px;
+    gap: 15px;
 
 }
 
 .cards_segmentos_int svg {
     width: 100%;
-    max-width: 80px;
-    height: 80px;
+    max-width: 60px;
+    height: 60px;
     fill: #fff;
 }
 
 .title_cards_segmentos h2 {
     font-weight: var(--font-weight-500);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 110%;
-    text-align: center;
+    text-align: left;
     color: #FFFFFF;
     margin: 0px;
+    width: min-content;
 }
 
 .container_geradores {
@@ -1739,18 +1741,6 @@ footer {
     /*Segmentos*/
     .container_segmentos {
         padding: 40px 0px 40px 0px;
-    }
-
-    .cards_segmentos {
-        max-width: 150px;
-        height: 160px;
-    }
-
-    .cards_segmentos_int svg {
-        width: 100%;
-        max-width: 70px;
-        height: 70px;
-        fill: #fff;
     }
 
     .title_segmentos h2 {
