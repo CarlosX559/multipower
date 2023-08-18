@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/medel');
 
 * {
@@ -7,6 +7,7 @@
 }
 
 :root {
+    --font-weight-300: 300;
     --font-weight-400: 400;
     --font-weight-500: 500;
     --font-weight-600: 600;
@@ -311,8 +312,8 @@ nav ul li a {
 
 .area_text_container_2 {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-around;
+    gap: 80px;
     width: 100%;
 }
 
@@ -363,7 +364,7 @@ nav ul li a {
 }
 
 .title_container_2 h2 {
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     font-size: 26px;
     color: #FFECE6;
     text-transform: uppercase;
@@ -371,7 +372,7 @@ nav ul li a {
 }
 
 .info_container_2 h2 {
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     font-size: 54px;
     color: #FFECE6;
     text-transform: uppercase;
@@ -520,7 +521,7 @@ nav ul li a {
 .sub_title_nossas_solucoes h2 {
     color: #000;
     font-size: 54px;
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     line-height: 100%;
     margin: 0px;
 }
@@ -538,7 +539,7 @@ nav ul li a {
 .sub_text_nossas_solucoes p {
     color: #000;
     font-size: 22px;
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     line-height: 145%;
     margin: 0px;
 }
@@ -624,7 +625,7 @@ nav ul li a {
 .title_encontrar_solucao h2 {
     color: #5D5D5D;
     font-size: 26px;
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     line-height: 100%;
     margin: 0px;
 }
@@ -1170,7 +1171,7 @@ nav ul li a {
 }
 
 .title_segmentos h2 {
-    font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-300);
     font-size: 48px;
     line-height: 105.52%;
     color: #FFFFFF;
@@ -1179,11 +1180,11 @@ nav ul li a {
 
 .title_segmentos h2 b {
     color: #FF4500;
-    font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-300);
 }
 
 .sub_title_segmentos p {
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     font-size: 18px;
     line-height: 142.02%;
     color: #FFECE6;
@@ -1741,6 +1742,14 @@ footer {
 
     .area_geradores {
         height: 1440px;
+    }
+}
+
+@media(min-width: 1600px) {
+    .area_fachada_multipower_int {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 165px;
     }
 }
 
