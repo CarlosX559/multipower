@@ -395,7 +395,7 @@ nav ul li a {
 }
 
 .sub_title_container_2 p {
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     font-size: 16px;
     line-height: 142.02%;
     text-align: left;
@@ -575,7 +575,7 @@ nav ul li a {
 .sub_title_card_solucoes p {
     color: #444;
     font-size: 22px;
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     line-height: 120%;
     margin: 0px;
 }
@@ -784,7 +784,7 @@ nav ul li a {
 .sub_title_valores p {
     color: #000000;
     font-size: 20px;
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-300);
     line-height: 140%;
     margin: 0px;
 }
