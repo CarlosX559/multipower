@@ -381,7 +381,7 @@ nav ul li a {
 }
 
 .info_container_2 h2 b {
-    font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-500);
     color: #FF4500;
     margin: 0px;
     line-height: 100%;
