@@ -2204,7 +2204,11 @@ footer {
     .area_card_img_5,
     .area_card_img_6,
     .area_card_img_7,
-    .area_card_img_8 {
+    .area_card_img_8,
+    .area_card_img_9,
+    .area_card_img_10,
+    .area_card_img_11,
+    .area_card_img_12 {
         height: 400px;
     }
 
