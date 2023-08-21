@@ -1786,9 +1786,17 @@ footer {
     .area_geradores {
         height: 1440px;
     }
+
+    .area_container_2 {
+        margin-top: 200px;
+    }
+
+    .area_fachada_multipower_int {
+        gap: 320px;
+    }
 }
 
-@media(min-width: 1600px) {
+@media(max-width: 1620px) {
     .area_fachada_multipower_int {
         display: flex;
         flex-wrap: wrap;
@@ -1808,7 +1816,7 @@ footer {
 
 }
 
-@media(max-width: 1366px) {
+@media(max-width: 1440px) {
 
     .area_menu {
         padding: 20px 20px;
@@ -1836,6 +1844,12 @@ footer {
 
     .area_servicos {
         padding: 0px 20px;
+    }
+
+    .area_fachada_multipower_int {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
     }
 }
 
