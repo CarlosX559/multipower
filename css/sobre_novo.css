@@ -1253,98 +1253,187 @@ footer {
         height: 300px;
     }
 
-    /*container sbore*/
-    .container_sobre {
+    /*Container 2*/
+    .container_2 {
         padding: 40px 0px 40px 0px;
     }
 
-    .container_sobre_int {
-        padding: 0px 20px;
-        gap: 30px;
+    .area_title_container_2 {
+        gap: 20px;
+        max-width: 600px;
     }
 
-    .title_sobre h2 {
+    .area_text_container_2 {
+        flex-direction: column;
+        padding: 0px 20px;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .bg_encontrar_solucao {
+        max-width: 300px;
+    }
+
+    .btn_contato h2 {
+        font-size: 16px;
+    }
+
+    .title_info_container_2 h2 {
+        font-size: 40px;
+    }
+
+    .title_container_2 h2 {
         font-size: 36px;
     }
 
-    .area_equipe {
+    .title_container_2 h2 b {
+        font-size: 36px;
+    }
+
+    .area_sub_title {
         gap: 20px;
     }
 
-    .title_equipe h2 {
-        font-size: 28px;
+    .info_container_2 h2 {
+        font-size: 40px;
     }
 
-    .area_info_equipe {
-        align-items: flex-start;
-        gap: 40px;
-    }
-
-    .info_equipe {
-        margin-top: 0px;
-        justify-content: center;
+    .area_titles_nossas_solucoes {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
     }
 
-    .info_equipe.inverter {
-        flex-direction: column-reverse;
-        gap: 20px;
+    .area_nossa_energia img {
+        max-width: 400px;
+        width: 100%;
     }
 
-    /*Container responsabilidade*/
-    .area_responsabilidade {
-        gap: 20px;
-        padding: 0px 20px;
-    }
-
-    .title_responsabilidade h2 {
-        font-size: 28px;
-    }
-
-    .info_responsabilidade {
-        gap: 20px;
-    }
-
-    .area_info_responsabilidade {
-        gap: 20px;
-    }
-
-    .circulo_info {
-        height: 100px;
-    }
-
-    .area_text_info_responsabilidade {
-        gap: 10px;
-    }
-
-    .area_qualidade {
-        flex-direction: column;
+    .area_nossa_energia {
+        flex-wrap: wrap;
         align-items: center;
-        text-align: center;
-        gap: 20px;
         padding: 0px 20px;
+        gap: 40px;
+        margin-top: 0px;
     }
 
-    .container_qualidade_int {
-        padding: 0px;
+    .title_nossa_energia h2 {
+        font-size: 40px;
     }
 
-    .title_qualidade h2 {
+    /*Nossos diferenciais*/
+    .bg_nossa_energia {
+        max-width: 300px;
+    }
+
+    .area_nossos_diferenciais img {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .sub_title_nossas_solucoes h2 {
+        font-size: 40px;
+    }
+
+    .title_nossas_solucoes h2 {
+        font-size: 22px;
+    }
+
+    .sub_text_nossas_solucoes p {
         font-size: 20px;
     }
 
-    .sub_title_qualidade p {
-        font-size: 18px;
+    .title_card_solucoes h2 {
+        font-size: 26px;
     }
 
-    .separador {
-        height: 4px;
+    .sub_title_card_solucoes p {
+        font-size: 20px;
+    }
+
+    .bg_nossos_diferenciais {
+        max-width: 300px;
+    }
+
+    .area_titles_nossas_solucoes {
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .area_fachada_multipower {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area_fachada_multipower_int {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .container_nossos_diferenciais_int {
+        gap: 40px;
+        padding: 0px 20px;
+    }
+
+    .title_encontrar_solucao h2 {
+        font-size: 24px;
+    }
+
+    .sub_title_encontrar_solucao p {
+        font-size: 30px;
+    }
+
+    .btn_contato_2 h2 {
+        font-size: 16px;
+    }
+
+    .area_cards_total_fachada {
+        gap: 40px;
+    }
+
+    .area_cards_nossas_solucoes {
+        gap: 40px;
+        justify-content: flex-start;
+
+    }
+
+    .cards_nossas_solucoes {
+        max-width: 300px;
+    }
+
+    .fachada_multipower {
+        max-width: 600px;
+    }
+
+    /*Almejamos*/
+    .title_almejamos h2 {
+        font-size: 22px;
+    }
+
+    .sub_title_almejamos h2 {
+        font-size: 30px;
+    }
+
+    .area_almejamos {
+        padding: 0px 20px;
+        gap: 120px;
+    }
+
+    .area_valores {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .raio {
+        position: absolute;
+        top: -100px;
+        left: -30px;
+        max-width: 60px;
         width: 100%;
-        max-width: 480px;
     }
-
 
     /*Container mapa*/
 
@@ -1443,28 +1532,69 @@ footer {
         font-size: 32px;
     }
 
-    /*Container responsabilidade*/
-    .title_info_responsalidade h2 {
+    /*Container 2*/
+
+    .area_text_container_2 {
+        gap: 10px;
+    }
+
+    .title_container_2 h2 {
+        font-size: 26px;
+    }
+
+    .info_container_2 h2 {
+        font-size: 30px;
+    }
+
+    
+    .title_info_container_2 h2 {
+        font-size: 30px;
+    }
+
+    .area_nossa_energia {
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .btn_contato {
+        height: 40px;
+        padding: 0px 40px;
+    }
+
+    .title_nossa_energia h2 {
+        font-size: 36px;
+    }
+
+    /*Almejamos*/
+    #container_almejamos {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .area_almejamos {
+        padding: 0px 20px;
+        gap: 60px;
+    }
+
+    .raio {
+        position: absolute;
+        top: -50px;
+        left: -20px;
+        max-width: 40px;
+        width: 100%;
+    }
+
+    .card_valores {
+        height: 260px;
+        max-width: max-content;
+    }
+
+    .title_valores h2 {
+        font-size: 26px;
+    }
+
+    .sub_title_valores p {
         font-size: 18px;
     }
-
-    .sub_title_info_responsalidade p {
-        font-size: 14px;
-    }
-
-    .info_destaque_responsabilidade p {
-        font-size: 18px;
-    }
-
-    .circulo_info {
-        width: 70px;
-        height: 60px;
-    }
-
-    .circulo_info img {
-        width: 35px;
-    }
-
 
     /*Container qualidade*/
     .title_qualidade h2 {
@@ -1474,7 +1604,6 @@ footer {
     .sub_title_qualidade p {
         font-size: 16px;
     }
-
 
     .title_mapa h2 {
         font-size: 28px;
@@ -1495,6 +1624,49 @@ footer {
 
     .circulo_icon_endereco img {
         width: 22px;
+    }
+
+    /*Nossos diferenciais*/
+    .container_nossos_diferenciais {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .container_nossos_diferenciais_int {
+        gap: 20px;
+    }
+
+    .area_cards_nossas_solucoes {
+        gap: 20px;
+    }
+
+    .cards_nossas_solucoes {
+        gap: 10px;
+    }
+
+    .title_nossas_solucoes h2 {
+        color: #ffffff;
+    }
+
+    .sub_title_nossas_solucoes h2 {
+        font-size: 30px;
+    }
+
+    .sub_text_nossas_solucoes p {
+        font-size: 18px;
+    }
+
+    .title_card_solucoes h2 {
+        font-size: 22px;
+    }
+
+    .sub_title_card_solucoes p {
+        font-size: 18px;
+    }
+
+
+    .btn_contato_2 {
+        height: 40px;
+        padding: 0px 30px;
     }
 
     /*Footer*/
