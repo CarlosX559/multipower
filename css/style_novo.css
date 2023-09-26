@@ -382,6 +382,7 @@ nav ul li a {
     max-width: max-content;
     width: 100%;
     padding: 12px;
+    transition: all ease 300ms;
 }
 
 .btn_1_locacao h2 {
@@ -394,6 +395,11 @@ nav ul li a {
     margin: 0px;
 }
 
+.btn_1_locacao:hover {
+    border: 2px solid #1A1A1A;
+    background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
+}
+
 .btn_2_locacao {
     border-radius: 8px;
     border: 2px solid #FF550E;
@@ -401,6 +407,7 @@ nav ul li a {
     max-width: max-content;
     width: 100%;
     padding: 12px;
+    transition: all ease 300ms;
 }
 
 .btn_2_locacao h2 {
@@ -412,6 +419,11 @@ nav ul li a {
     letter-spacing: 0.5px;
     margin: 0px;
 }
+
+.btn_2_locacao:hover {
+    background: #FF550E;
+}
+
 
 .area_card_locacao_1 {
     background-image: url(../img/locacao_1.png);
@@ -560,10 +572,10 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     height: 100%;
-    padding: 0px 20px;
+    padding: 20px 20px;
     max-width: 320px;
     width: 100%;
 }
@@ -605,6 +617,7 @@ nav ul li a {
     width: 100%;
     height: 50px;
     padding: 0px 50px;
+    transition: all ease 300ms;
 }
 
 .btn_orcamento h2 {
@@ -615,6 +628,11 @@ nav ul li a {
     font-weight: var(--font-weight-700);
     line-height: 100%;
     margin: 0px;
+}
+
+.btn_orcamento:hover {
+    border: 2px solid #1A1A1A;
+    background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
 }
 
 .btn_contato {
@@ -1279,6 +1297,7 @@ nav ul li a {
     max-width: max-content;
     width: 100%;
     padding: 12px;
+    transition: all ease 300ms;
 }
 
 .btn_1_servicos h2 {
@@ -1291,6 +1310,12 @@ nav ul li a {
     margin: 0px;
 }
 
+.btn_1_servicos:hover {
+    border: 2px solid #1A1A1A;
+    background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
+}
+
+
 .btn_2_servicos {
     border-radius: 8px;
     border: 2px solid #FF550E;
@@ -1298,6 +1323,7 @@ nav ul li a {
     max-width: max-content;
     width: 100%;
     padding: 12px;
+    transition: all ease 300ms;
 }
 
 .btn_2_servicos h2 {
@@ -1308,6 +1334,13 @@ nav ul li a {
     line-height: 100%;
     letter-spacing: 0.5px;
     margin: 0px;
+}
+
+.btn_2_servicos:hover {
+    background-color: #FF550E;
+}
+.btn_2_servicos:hover > h2 {
+    color: #ffffff;
 }
 
 .title_duvidas_servicos h2 {
