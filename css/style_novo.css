@@ -235,22 +235,21 @@ nav ul li a {
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    max-width: 700px;
+    max-width: 650px;
 }
 
 .sub_title_container_1 p {
     color: #FF4500;
-    text-align: center;
-    font-size: 38px;
+    font-size: 28px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: var(--font-weight-500);
     line-height: 100%;
     margin: 0px;
 }
 
 .title_container_1 h2 {
     color: #FFF;
-    font-size: 80px;
+    font-size: 60px;
     font-style: normal;
     font-weight: var(--font-weight-700);
     line-height: 105.523%;
@@ -306,8 +305,7 @@ nav ul li a {
     position: relative;
     z-index: 0;
     width: 100%;
-    margin-top: -185px;
-    padding: 0px 0px 100px 0px;
+    padding: 80px 0px 80px 0px;
     background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
 }
 
@@ -323,7 +321,6 @@ nav ul li a {
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    margin-top: 160px;
 }
 
 .area_text_container_2 {
@@ -372,6 +369,7 @@ nav ul li a {
 
 .area_btns_locacao {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     width: 100%;
@@ -541,7 +539,6 @@ nav ul li a {
     width: 100%;
     flex-wrap: wrap;
     gap: 20px;
-    align-items: center;
 }
 
 .card_orcamento {
@@ -1443,6 +1440,17 @@ nav ul li a {
     margin: 0px;
 }
 
+
+.area_duvidas_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .area_card_img_1 {
     background-image: url(../img/agronegocio.png);
     background-position: center;
@@ -2027,20 +2035,12 @@ footer {
         height: 1120px;
     }
 
-    .container_2 {
-        margin-top: -280px;
-    }
-
     .img_predios {
         height: 1040px;
     }
 
     .area_geradores {
         height: 1440px;
-    }
-
-    .area_container_2 {
-        margin-top: 200px;
     }
 
     .area_fachada_multipower_int {
@@ -2062,10 +2062,6 @@ footer {
         height: 1300px;
     }
 
-    .container_2 {
-        margin-top: -200px;
-    }
-
 }
 
 @media(max-width: 1440px) {
@@ -2076,10 +2072,6 @@ footer {
 
     .container_1_int {
         padding: 0px 20px;
-    }
-
-    .area_container_2 {
-        margin-top: 120px;
     }
 
     .container_segmentos {
@@ -2216,6 +2208,14 @@ footer {
         height: 800px;
     }
 
+    .btn_container_1 {
+        height: 40px;
+    }
+
+    .btn_container_1 h2 {
+        font-size: 16px;
+    }
+
     .container_1_int {
         padding: 0px 20px;
     }
@@ -2234,7 +2234,7 @@ footer {
 
     /*Container 2*/
     .container_2 {
-        padding: 0px 0px 40px 0px;
+        padding: 40px 0px 40px 0px;
     }
 
     .area_duvidas {
@@ -2249,7 +2249,6 @@ footer {
     .area_text_container_2 {
         flex-direction: column;
         padding: 0px 20px;
-        align-items: center;
         gap: 20px;
 
     }
@@ -2601,7 +2600,7 @@ footer {
     }
 
     .area_container_1 {
-        max-width: 340px;
+        max-width: 450px;
     }
 
     .btn_container_1 h2 {
@@ -2613,8 +2612,45 @@ footer {
         font-size: 32px;
     }
 
+    .area_duvidas {
+        gap: 20px;
+    }
+
+    .info_duvidas p {
+        font-size: 22px;
+    }
+
+    .title_duvidas h2 {
+        font-size: 32px;
+    }
+
+    .btn_contato_2 {
+        height: 40px;
+    }
+
     .title_container_2 h2 b {
         font-size: 32px;
+    }
+
+    .card_orcamento {
+        flex-direction: column;
+        max-width: max-content;
+    }
+
+    .area_texts_orcamento {
+        gap: 20px;
+    }
+
+    .title_orcamento h2 {
+        font-size: 26px;
+    }
+
+    .sub_title_orcamento p {
+        font-size: 18px;
+    }
+
+    .btn_orcamento {
+        height: 40px;
     }
 
     /*Solucoes*/
@@ -2633,6 +2669,10 @@ footer {
     /*Serviços*/
     .area_texts_servicos {
         gap: 10px;
+    }
+
+    .title_duvidas_servicos h2 {
+        font-size: 32px;
     }
 
     .title_servicos h2 {
@@ -2699,11 +2739,23 @@ footer {
     /*Container 2*/
 
     .container_2 {
-        margin-top: -70px;
+        margin-top: 0px;
     }
 
-    .area_container_2 {
-        margin-top: 40px;
+    .area_duvidas {
+        margin-top: 20px;
+    }
+
+    .title_duvidas h2 {
+        font-size: 28px;
+    }
+
+    .area_sub_title_servicos {
+        gap: 20px;
+    }
+
+    .area_card_servicos {
+        height: 460px;
     }
 
     .area_text_container_2 {
@@ -2840,13 +2892,21 @@ footer {
         font-size: 28px;
     }
 
+    .info_container_servicos h2 {
+        font-size: 30px;
+    }
+
+    .title_duvidas_servicos h2 {
+        font-size: 28px;
+    }
+
     .sub_title_servicos p {
         font-size: 14px;
     }
 
     /*Segmentos*/
     .container_segmentos {
-        padding: 40px 0px 60px 0px;
+        padding: 40px 0px 40px 0px;
     }
 
     .bg_encontrar_segmentos {
