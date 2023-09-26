@@ -563,7 +563,7 @@ nav ul li a {
     justify-content: center;
     align-items: flex-start;
     height: 100%;
-    padding: 40px 20px;
+    padding: 0px 20px;
     max-width: 320px;
     width: 100%;
 }
@@ -2639,6 +2639,7 @@ footer {
 
     .area_texts_orcamento {
         gap: 20px;
+        padding: 20px 20px;
     }
 
     .title_orcamento h2 {
