@@ -705,7 +705,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1110px;
+    max-width: 1264px;
 }
 
 .bg_nossos_diferenciais {
@@ -761,12 +761,12 @@ nav ul li a {
 
 .area_cards_nossas_solucoes {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     gap: 60px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1264px;
 }
 
 .cards_nossas_solucoes {
@@ -798,8 +798,8 @@ nav ul li a {
 
 .area_fachada_multipower {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
