@@ -244,23 +244,8 @@ nav ul li a {
     border-radius: 20px;
 }
 
-.slide-1 .owl-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
 
-.slide-1 .item {
-    display: flex;
-    justify-content: center;
-}
-
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: transparent !important;
-}
-
-.container_slide {
+.container_swiper {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -269,21 +254,51 @@ nav ul li a {
     box-shadow: inset -1px 24px 41px rgba(205, 59, 5, 0.61);
 }
 
-.container_slide_int {
+.container_swiper_int {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1440px;
 }
 
-.area_slide {
+.area_swiper {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    gap: 40px;
 }
 
+.swiper-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.swiper {
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+}
+
+.swiper-slide-prev, .swiper-slide-next {
+    backdrop-filter: blur(3px);
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000000 !important;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 50px !important;
+    left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 50px !important;
+    right: auto;
+}
 
 footer {
     background-image: url(../img_servicos/bg_footer.png);

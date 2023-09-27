@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gupo de geradores - Multipower Geradores</title>
     <link rel="stylesheet" href="../css/style_subpaginas.css">
-    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="icon"
         href="https://multipowergeradores.com.br/wp-content/uploads/2020/07/cropped-favicon_multipower-32x32.png"
         sizes="32x32">
@@ -183,31 +182,44 @@
             </div>
         </div>
     </div>
-    
-    <div class="container_slide">
-        <div class="container_slide_int">
-            <div class="area_slide">
-                <div class="slide-1 owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="../img_sub_paginas/slide_geradores_1.png" alt="">
+
+    <div class="container_swiper">
+        <div class="container_swiper_int">
+            <div class="area_swiper">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="../img_sub_paginas/slide_geradores_1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img_sub_paginas/slide_geradores_2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img_sub_paginas/slide_geradores_3.png" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="../img_sub_paginas/slide_geradores_3.png" alt="">
+                        </div>
+                        
                     </div>
-        
-                    <div class="item">
-                        <img src="../img_sub_paginas/slide_geradores_2.png" alt="">
-                    </div>
-        
-                    <div class="item">
-                        <img src="../img_sub_paginas/slide_geradores_3.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../img_sub_paginas/slide_geradores_3.png" alt="">
-                    </div>
-        
+                    
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!--<div class="swiper-scrollbar"></div>-->
                 </div>
+
             </div>
-        
         </div>
     </div>
+
    
 
     <footer>
@@ -318,51 +330,85 @@
     </div>
 
     <script src="../js/jquery-3.6.1.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="../js/script.js"></script>
-    <script type="text/javascript">
-        const next = '<img src="../img_sub_paginas/arrow_left.svg" alt="">';
-        const prev = '<img src="../img_sub_paginas/arrow_right.svg" alt="">';
-        $(document).ready(() => {
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
 
 
-            $(".slide-1").owlCarousel({
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 10000,
+            },
+            effect: 'cards',
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: 'auto',
+            cardsEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2.5,
+                slideShadows: false,
+                perSlideOffset: 20,
+                perSlideRotate: 10
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 'auto',
 
-                items: 6,
-                loop: true,
-                nav: true,
-                dots: false,
-                margin: 20,
-                navText: [
-                    next,
-                    prev
-                ],
-                autoplay: false,
-                autoplayTimeout: 6000,
-                responsive: {
-                    375: {
-                        items: 1
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 'auto',
+
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 'auto',
+
+                },
+                // when window width is >= 1024px
+                1024: {
+                    slidesPerView: 'auto',
+                    cardsEffect: {
+                        rotate: 0,
+                        stretch: 0,
+                        depth: 50,
+                        modifier: 2.5,
+                        perSlideOffset: 15,
+                        perSlideRotate: 5
                     },
-                    768: {
-                        items: 2
-                    },
-                    1024: {
-                        items: 2
-                    },
-                    1366: {
-                        items: 3
-                    },
-                    1440: {
-                        items: 3
-                    }
                 }
+            },
+            /*cardsEffect: {
+                perSlideOffset: 4,
+                slideShadows: false,
+                perSlideRotate: 4
+            },*/
 
-            });
 
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
 
+            // And if we need scrollbar
+            /*scrollbar: {
+                el: '.swiper-scrollbar',
+                draggable: true,
+                snapOnRelease: true,
+                
+            },*/
         });
-
-
     </script>
 </body>
 
