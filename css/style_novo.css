@@ -199,6 +199,22 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+.area_redes_sociais_fixed {
+    position: fixed;
+    right: 40px;
+    top: 200px;
+    z-index: 99;
+}
+
+.area_redes_sociais_fixed_int {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 /*Container 1*/
 
 #container_1 {
@@ -268,13 +284,13 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
-    height: 50px;
+    border-radius: 8px;
+    height: 40px;
     border: 3px solid #FF4500;
     background-color: #000;
     width: 100%;
     max-width: 370px;
-    padding: 0px 60px;
+    padding: 0px 40px;
     transition: all ease 300ms;
     position: relative;
 }
@@ -283,7 +299,7 @@ nav ul li a {
     color: #FFF;
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: var(--font-weight-700);
     margin: 0px;
 }
@@ -342,9 +358,9 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 25px;
     width: 100%;
-    max-width: 600px;
+    max-width: 780px;
 }
 
 .title_card_locacao h2 {
@@ -535,7 +551,7 @@ nav ul li a {
 .title_duvidas h2 {
     color: #FFF;
     font-family: 'Poppins';
-    font-size: 42px;
+    font-size: 32px;
     font-weight: var(--font-weight-500);
     line-height: 100%;
     margin: 0px;
@@ -547,7 +563,7 @@ nav ul li a {
 
 .area_cards_orcamento {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     flex-wrap: wrap;
     gap: 20px;
@@ -557,26 +573,25 @@ nav ul li a {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 620px;
-    background-color: #ffffff;
+    max-width: 1000px;
     border-radius: 10px;
 }
 
 .card_orcamento img {
     width: 100%;
-    max-width: 340px;
+    max-width: 300px;
     height: auto;
 }
 
 .area_texts_orcamento {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     justify-content: flex-start;
     align-items: flex-start;
     height: 100%;
-    padding: 20px 20px;
-    max-width: 320px;
+    padding: 0px 20px 20px 20px;
+    max-width: max-content;
     width: 100%;
 }
 
@@ -588,7 +603,7 @@ nav ul li a {
 .title_orcamento h2 {
     color: #FF4500;
     font-family: 'Poppins';
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: var(--font-weight-600);
     line-height: 100%;
@@ -597,7 +612,7 @@ nav ul li a {
 }
 
 .sub_title_orcamento p {
-    color: #000;
+    color: #ffffff;
     font-family: 'Poppins';
     font-size: 20px;
     font-style: normal;
@@ -639,7 +654,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 8px;
     height: 50px;
     border: 3px solid #FF4500;
     background-color: #000;
@@ -702,7 +717,7 @@ nav ul li a {
     font-size: 16px;
     line-height: 142.02%;
     text-align: center;
-    color: #FFECE6;
+    color: #FF4500;
     margin: 0px;
 }
 
@@ -937,7 +952,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 8px;
     height: 50px;
     border: 3px solid #FF4500;
     background-color: #FF4500;
@@ -2781,15 +2796,11 @@ footer {
     }
 
     .title_duvidas h2 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .area_sub_title_servicos {
         gap: 20px;
-    }
-
-    .area_card_servicos {
-        height: 460px;
     }
 
     .area_text_container_2 {
@@ -2867,7 +2878,7 @@ footer {
 
     .btn_contato_2 {
         height: 40px;
-        padding: 0px 40px;
+        padding: 0px 20px;
     }
 
     .bg_encontrar_solucao {
@@ -2877,6 +2888,28 @@ footer {
     .bg_nossos_diferenciais {
         max-width: 200px;
     }
+
+    .area_redes_sociais_fixed {
+        position: fixed;
+        right: 20px;
+        top: 100px;
+        z-index: 99;
+    }
+
+    .area_redes_sociais_fixed_int {
+        gap: 15px;
+    }
+
+    .area_redes_sociais_fixed_int a svg {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .area_redes_sociais_fixed_int a img {
+        max-width: 30px;
+        width: 100%;
+    }
+
 
     /*Almejamos*/
     #container_almejamos {
@@ -2931,7 +2964,7 @@ footer {
     }
 
     .title_duvidas_servicos h2 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .sub_title_servicos p {
@@ -2942,7 +2975,12 @@ footer {
     .container_segmentos {
         padding: 40px 0px 40px 0px;
     }
-
+    .card_orcamento img {
+        width: 100%;
+        max-width: 100%;
+        height: 370px;
+        object-fit: cover;
+    }
     .bg_encontrar_segmentos {
         max-width: 200px;
         right: 28px;
