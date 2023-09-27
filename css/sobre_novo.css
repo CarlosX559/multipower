@@ -393,7 +393,7 @@ nav ul li a {
     right: 0px;
     bottom: -2px;
     width: 100%;
-    max-width: max-content;
+    max-width: 300px;
     z-index: -1;
 }
 
@@ -445,7 +445,7 @@ nav ul li a {
 
 .sub_title_almejamos h2 {
     color: #000;
-    font-size: 54px;
+    font-size: 40px;
     font-weight: var(--font-weight-400);
     line-height: 100%;
     margin: 0px;
@@ -553,7 +553,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     z-index: 1;
 }
 
@@ -712,7 +712,7 @@ nav ul li a {
     position: absolute;
     top: -2px;
     left: -10px;
-    max-width: 300px;
+    max-width: 220px;
     width: 100%;
     transform: rotate(180deg);
     z-index: -1;
@@ -735,7 +735,7 @@ nav ul li a {
 
 .sub_title_nossas_solucoes h2 {
     color: #000;
-    font-size: 54px;
+    font-size: 40px;
     font-weight: var(--font-weight-300);
     line-height: 100%;
     margin: 0px;
@@ -1505,7 +1505,7 @@ footer {
     }
 
     .bg_nossos_diferenciais {
-        max-width: 300px;
+        max-width: 200px;
     }
 
     .area_titles_nossas_solucoes {
