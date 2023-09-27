@@ -1182,8 +1182,8 @@ nav ul li a {
 
 .title_container_servicos h2 {
     font-weight: var(--font-weight-500);
-    font-size: 26px;
-    color: #5D5D5D;
+    font-size: 24px;
+    color: #000000;
     text-transform: uppercase;
     margin: 0px;
 }
@@ -1205,7 +1205,7 @@ nav ul li a {
 }
 
 .sub_title_container_servicos p {
-    font-weight: var(--font-weight-300);
+    font-weight: var(--font-weight-400);
     font-size: 16px;
     line-height: 142.02%;
     text-align: left;
@@ -1364,7 +1364,7 @@ nav ul li a {
     font-family: 'Poppins';
     font-size: 42px;
     font-weight: var(--font-weight-500);
-    line-height: 100%;
+    line-height: 110%;
     margin: 0px;
 }
 
@@ -1462,15 +1462,35 @@ nav ul li a {
 
 .area_texts_segmentos {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     gap: 30px;
     width: 100%;
-    max-width: 900px;
+}
+
+.area_titles_segmentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_segmentos p {
+    color: #E5E5E5;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--font-weight-500);
+    line-height: 100%;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.sub_title_segmentos {
+    max-width: 800px;
 }
 
 .title_segmentos h2 {
     font-weight: var(--font-weight-300);
-    font-size: 48px;
+    font-size: 40px;
     line-height: 105.52%;
     color: #FFFFFF;
     margin: 0px;
