@@ -959,7 +959,7 @@ nav ul li a {
     background-color: #FF4500;
     width: 100%;
     max-width: 370px;
-    padding: 0px 70px;
+    padding: 0px 58px;
     transition: all ease 300ms;
     position: relative;
 }
@@ -1344,7 +1344,7 @@ nav ul li a {
 
 .btn_2_servicos h2 {
     color: #FF550E;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: var(--font-weight-500);
     line-height: 100%;
