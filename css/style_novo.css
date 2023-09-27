@@ -529,6 +529,7 @@ nav ul li a {
     width: 100%;
     margin-top: 40px;
     flex-wrap: wrap;
+    max-width: 1240px;
 }
 
 .area_texts_duvidas {
@@ -1497,6 +1498,7 @@ nav ul li a {
     margin-top: 40px;
     gap: 20px;
     flex-wrap: wrap;
+    max-width: 1240px;
 }
 
 .area_card_img_1 {
