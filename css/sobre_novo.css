@@ -188,6 +188,22 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+.area_redes_sociais_fixed {
+    position: fixed;
+    right: 40px;
+    top: 200px;
+    z-index: 99;
+}
+
+.area_redes_sociais_fixed_int {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 /*Container 1*/
 .container_1 {
     background-image: url(../img_sobre/bg_header_novo.png);
@@ -1821,6 +1837,28 @@ footer {
     .circulo_icon_endereco img {
         width: 22px;
     }
+
+    .area_redes_sociais_fixed {
+        position: fixed;
+        right: 20px;
+        top: 100px;
+        z-index: 99;
+    }
+
+    .area_redes_sociais_fixed_int {
+        gap: 15px;
+    }
+
+    .area_redes_sociais_fixed_int a svg {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .area_redes_sociais_fixed_int a img {
+        max-width: 30px;
+        width: 100%;
+    }
+
 
     /*Nossos diferenciais*/
     .container_nossos_diferenciais {
