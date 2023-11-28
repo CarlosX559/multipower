@@ -225,8 +225,6 @@ nav ul li a {
     width: 100%;
     height: 860px;
     margin-top: -120px;
-    position: relative;
-    z-index: 1;
 }
 
 .container_1 {
@@ -2283,7 +2281,7 @@ footer {
         left: 0px;
         background: linear-gradient(153.93deg, rgba(255, 255, 255, 0.158) -19.01%, rgba(255, 255, 255, 0) 30.86%), linear-gradient(28.18deg, rgba(255, 255, 255, 0.2) -17.5%, rgba(0, 0, 0, 0) 57.7%), linear-gradient(344.21deg, #000000 63.66%, rgba(0, 0, 0, 0) 84.7%), #1A1A1A;
         box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.26);
-        z-index: 10;
+        z-index: 3;
         padding: 20px 0px 20px 0px;
     }
 
@@ -2946,8 +2944,8 @@ footer {
     .area_redes_sociais_fixed {
         position: fixed;
         right: 20px;
-        top: 100px;
-        z-index: 99;
+        top: 120px;
+        z-index: 1;
     }
 
     .area_redes_sociais_fixed_int {
