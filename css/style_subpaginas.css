@@ -659,3 +659,15 @@ footer {
     }
 
 }
+
+@media(max-width: 320px) {
+    .info_footer h2 {
+        font-size: 13px;
+    }
+    .area_redes_sociais_fixed {
+        position: fixed;
+        right: 20px;
+        top: 150px;
+        z-index: 1;
+    }
+}
