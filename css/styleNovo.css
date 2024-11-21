@@ -2673,6 +2673,9 @@ footer {
 
     .area_redes_sociais {
         padding: 0px 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -3109,4 +3112,16 @@ footer {
         height: 340px;
     }
 
+}
+
+@media(max-width: 320px) {
+    .info_footer h2 {
+        font-size: 13px;
+    }
+    .area_redes_sociais_fixed {
+        position: fixed;
+        right: 20px;
+        top: 150px;
+        z-index: 1;
+    }
 }
