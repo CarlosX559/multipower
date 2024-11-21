@@ -709,3 +709,9 @@ footer {
     }
 
 }
+
+@media (max-width: 320px) {
+    .info_footer h2 {
+        font-size: 13px;
+    }
+}
