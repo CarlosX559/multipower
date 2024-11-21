@@ -679,6 +679,9 @@ footer {
 
     .area_redes_sociais {
         padding: 0px 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
 
